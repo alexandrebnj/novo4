@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #181d31;
+    color: #E6DDC4;
+}
+
+.cabecalho{
+
+    padding: 2% 0% 0% 15%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    text-decoration: solid;
+    
+}
+
+
+
+
+
+
+
+.foto__alexandre{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+    font-size: 2rem;
+    font-weight: normal;
+
+
+}
+
+.apresentacao__curriculum{
+  padding:0% 20% 0% 10%;
+  
+
+   
+
+}
+
+.titulo__curriculum{
+    padding: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+
+.paragrafo2{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 2%;
+
+}
+
+.paragrafo3{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    
+
+}
+
+.paragrafo4{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 2%;
+}
+
+.paragrafo5{
+    text-decoration: underline;
+}
+
+.paragrafo6{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 2%;
+}
+
+.paragrafo7{
+    text-decoration: underline;
+}
+
+@media (max-width: 1100px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+   
+    .foto__alexandre{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__curriculum{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    padding: 24px;
+    color: #000000;
+    background-color: #22d4fd;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
